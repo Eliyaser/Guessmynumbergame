@@ -119,7 +119,7 @@ h1 {
 }
 
 /* mobile resposive */
-@media only screen and (max-width:59em) {
+@media only screen and (max-width: 59em) {
   html {
     /* font-size: 10px; */
 
