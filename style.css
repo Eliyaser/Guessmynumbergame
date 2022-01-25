@@ -117,3 +117,24 @@ h1 {
 .label-score {
   margin-bottom: 2rem;
 }
+
+/* mobile resposive */
+@media only screen and (max-width: 600px) {
+  html {
+    /* font-size: 10px; */
+
+    /* 10px / 16px = 0.625 = 62.5% */
+    /* Percentage of user's browser font-size setting */
+    font-size: 56.25%;
+  }
+
+  main {
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  .right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
